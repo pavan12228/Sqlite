@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.sqlite.MainActivity">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textPersonName"
+          android:hint="Uname"
+          android:ems="10"
+          android:id="@+id/etUname" />
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textPassword"
+          android:ems="10"
+          android:hint="password"
+          android:id="@+id/etPass" />
+
+      <Button
+          android:text="login"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Login" />
+      <Button
+          android:text="Signup here"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Signup" />
+
+  </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
